@@ -1,0 +1,30 @@
+h1 {
+    font-size: 48px;
+}
+.crystal-image {
+   height: 310px;
+}
+/* #crystals {
+    width: 200px;
+    height: 50px;
+} */
+#image0 {
+    margin: 20px;
+    position: relative;
+    float: left;
+}
+#image1 {
+    margin: 20px;
+    position: relative;
+    float: left;
+}
+#image2 {
+    margin: 20px;
+    position: relative;
+    float: left;
+}
+#image3 {
+    margin: 20px;
+    position: relative;
+    float: left;
+}
