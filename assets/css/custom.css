@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(47, 49, 54);
+}
+.center {
+    margin: 30px 100px;
+    display: flex;
+    background-color: rgb(197, 203, 212);
+    border-color: rgb(226, 235, 241);
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 1px 4px 6px 4px rgba(136, 145, 160, 0.26);
+}
+.instructions {
+    padding: 20px;
+    width: 280px;
+    font-size: 28px;
+    color: white;
+    background-color: rgb(80, 86, 97);
+    line-height: 1.4em;
+}
+.info {
+    width: 300px;
+}
+h1 {
+    font-size: 30px;
+    line-height: 2em;
+    margin-right: 40px;
+    margin-left: 20px;
+    background-color:  rgb(128, 135, 146);
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+#guessnum, #inputcounter, #guesses {
+    background-color:  rgb(80, 86, 97);
+    padding: 20px;
+    /* width: 100px; */
+}
+h2 {
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 24px;
+    /* color: white; */
+}
+.crystal-image {
+    background-color: yellow;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 190px;
+}
+.crystal-image1 {
+    background-color: rgb(218, 142, 2);
+    display: flex;
+    flex-wrap: nowrap;   
+    height: 190px;
+}
+.crystal-image2 {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 190px;
+}
+.crystal-image3 {
+    background-color: rgb(202, 22, 202);
+    display: flex;
+    flex-wrap: nowrap;   
+    height: 190px;
+}
+.images {
+    margin: 20px;
+}
+#image0, #image4, #image8, #image12 {
+    margin-left: 40px;
+}

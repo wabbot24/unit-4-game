@@ -1,5 +1,9 @@
 h1 {
-    font-size: 48px;
+    font-size: 30px;
+    /* line-height: 2em; */
+    margin: 20px;
+
+    /* float: left; */
 }
 .crystal-image {
    height: 310px;
@@ -27,4 +31,7 @@ h1 {
     margin: 20px;
     position: relative;
     float: left;
+}
+#link {
+    display: none;
 }

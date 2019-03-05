@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Crystal</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="assets/javascript/game.js"></script> -->
+
+
+
+</head>
+
+<body>
+    <div class="center">
+        <div class="info">
+            <h1>Target Number: <span id="guessnum"></span></h1>
+            <h1>Your Number: <span id="inputcounter"></span></h1>
+            <h1>Wins: <span id="Wins"></span></h1>
+            <h1>Losses: <span id="Losses"></span></h1>
+            <h1>Guesses left: <span id="guesses"></span></h1>
+        </div>
+        <div class="crystals">
+
+            <row class="crystal-image" style="margin:0px auto; width:100%;">
+                <div class="images" class="show" id="image0" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+
+                <div class="images" class="show" id="image1" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+
+                <div class="images" class="show" id="image2" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+                <div class="images" class="show" id="image3" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+                <h2>Base Value (BV)</h2>
+            </row>
+
+            <row class="crystal-image1" style="margin:0px auto; width:100%">
+                <div class="images" class="hide" id="image4" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+
+                <div class="images" class="hide" id="image5" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+
+                <div class="images" class="hide" id="image6" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+                <div class="images" class="hide" id="image7" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+                <h2>BVx(2)</h2>
+            </row>
+
+            <row class="crystal-image2" style="margin:0px auto; width:100%;">
+                <div class="images" class="hide" id="image8" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+
+                <div class="images" class="hide" id="image9" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+
+                <div class="images" class="hide" id="image10" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+                <div class="images" class="hide" id="image11" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+                <h2>Target - 3</h2>
+            </row>
+
+            <row class="crystal-image3" style="margin:0px auto; width:100%;">
+                <div class="images" class="hide" id="image12" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+
+                <div class="images" class="hide" id="image13" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+
+                <div class="images" class="hide" id="image14" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+                <div class="images" class="hide" id="image15" style="float:left; margin:20; width:25%;">
+                    <img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg"
+                        alt="crystal picture" style="width:150px; height:150px;">
+                </div>
+                <h2>BVx(-1)</h2>
+            </row>
+
+        </div>
+        <div class="instructions">Match your Number to the Target Number in 25 clicks or less!
+            Each crystal has a base value, but on each click, the crystal will jump to the next row.
+            Each row changes the value of either the crystal or the Target Number. 
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+        });
+    </script>
+
+</body>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<script src="assets/javascript/customgame.js"></script>
+
+</html>
